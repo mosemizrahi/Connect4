@@ -290,7 +290,7 @@ public class Connect4AI {
 			//The score of that move is calculated, the dropped tile can be removed.
 			removeTile(positions[i]);
 		}
-		System.out.println(alpha);
+		//System.out.println(alpha);
 		//We now know the best move!
 		int best = positions[maxIndex];
 		setTile(best, 1);
